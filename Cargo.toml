@@ -1,0 +1,11 @@
+[package]
+authors = ["Shaun Hamilton"]
+description = "Simple, convenience macros and function for comparing."
+categories = ["development-tools"]
+edition = "2021"
+keywords = ["compare", "struct", "fields", "macro"]
+license = "MIT"
+name = "cmp"
+version = "0.1.0"
+
+[dependencies]
