@@ -4,14 +4,9 @@
 
 ## Usage
 
-To use this crate, add the following to your `Cargo.toml`:
-
-```toml
-[dependencies]
-cmp = "0.1.0"
+```bash
+cargo add cmp
 ```
-
-Then, in your Rust file:
 
 ```rust
 use cmp::compare_structs;
@@ -85,3 +80,9 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 
 In this output, the `c` field of the two structs do not match, and the macro outputs the differing values.
+
+## Features
+
+- `serde`
+  - Allows `compare_structs` to be called without specifying any fields
+  - Adds `serde` and `serde_json` as dependencies
